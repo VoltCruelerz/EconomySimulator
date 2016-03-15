@@ -1,10 +1,20 @@
+/**=========================================================================
+ * Copyright Michael Greene 2016
+ * 
+ * Name:			EconomySimulator.java
+ * Description: 	Main class for the simulator.  Initializes and runs all others.
+ * 
+ * Version History
+ * 
+ * User                 Description
+ * ------------------   -----------
+ * Volt Cruelerz        Initial commit
+ * 
+ * =========================================================================
+ */
+
 import java.util.ArrayList;
 
-
-/**
- * @author Michael Greene
- *
- */
 public class EconomySimulator {
 
 	static Government gov = new Government(new Money("1T"));

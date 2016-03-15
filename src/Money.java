@@ -1,3 +1,19 @@
+/**=========================================================================
+ * 
+ * Copyright Michael Greene 2016
+ * 
+ * Name:			Money.java
+ * Description: 	A single protected repository for Money code so that we can keep things straight and
+ *                  don't end up with ugly transactions
+ * 
+ * Version History
+ * 
+ * User                 Description
+ * ------------------   -----------
+ * Volt Cruelerz        Initial commit
+ * 
+ * =========================================================================
+ */
 import java.util.ArrayList;
 
 

@@ -1,3 +1,18 @@
+/**
+ * Copyright Michael Greene 2016
+ * 
+ * Name:			Entity.java
+ * Description: 	Parent class for all objects that handle money (such as
+ *                  Government, Corporation, and Person).
+ * 
+ * Version History
+ * 
+ * User                 Description
+ * ------------------   -----------
+ * Volt Cruelerz        Initial commit
+ * 
+ * =========================================================================
+ */
 import java.util.ArrayList;
 
 

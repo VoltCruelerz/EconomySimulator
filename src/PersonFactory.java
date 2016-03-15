@@ -1,3 +1,17 @@
+/**=========================================================================
+ * Copyright Michael Greene 2016
+ * 
+ * Name:			PersonFactory.java
+ * Description: 	Factory to create Person objects
+ * 
+ * Version History
+ * 
+ * User                 Description
+ * ------------------   -----------
+ * Volt Cruelerz        Initial commit
+ * 
+ * =========================================================================
+ */
 import java.util.Random;
 
 public class PersonFactory {

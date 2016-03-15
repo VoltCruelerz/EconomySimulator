@@ -1,3 +1,18 @@
+/**=========================================================================
+ * Copyright Michael Greene 2016
+ * 
+ * Name:			TaxSystem.java
+ * Description: 	Static class for performing taxation operations.  This way, all tax code
+ *                  is in the same place so it's easy to maintain.
+ * 
+ * Version History
+ * 
+ * User                 Description
+ * ------------------   -----------
+ * Volt Cruelerz        Initial commit
+ * 
+ * =========================================================================
+ */
 
 public class TaxSystem {
 	public enum Tax

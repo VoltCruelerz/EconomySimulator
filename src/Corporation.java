@@ -1,3 +1,17 @@
+/**=========================================================================
+ * Copyright Michael Greene 2016
+ * 
+ * Name:			Corporation.java
+ * Description: 	Class signifying businesses
+ * 
+ * Version History
+ * 
+ * User                 Description
+ * ------------------   -----------
+ * Volt Cruelerz        Initial commit
+ * 
+ * =========================================================================
+ */
 import java.util.ArrayList;
 
 public class Corporation extends Entity {
