@@ -28,7 +28,7 @@ public class Money {
 		{
 			val *= 1000000000000.0;// had to have a .0 so it would compile as a double instead of an int
 		}
-		else
+		else if(suffix != 'N')
 		{
 			System.out.println("Invalid Monetary Abbreviation: " + abbreviation);
 		}
