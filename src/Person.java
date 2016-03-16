@@ -16,8 +16,18 @@
 public class Person extends Entity {
 
 	Corporation _employer = null;
+	double _baseSalary;
+	double _skill;
+	boolean _isSingle;
+	int _age;
+	double _practicalSalary;
 	
-	public Person(Money startingFunds, Sex sex, int selfIndex) {
-		super(startingFunds, sex, false, selfIndex);
+	public Person(double baseSalary, Sex sex, int selfIndex, double skill, boolean isSingle, int age) {
+		super(new Money(1.5*baseSalary), sex, false, selfIndex);
+		_baseSalary = baseSalary;
+		_skill = skill;
+		_isSingle = isSingle;
+		_age = age;
+		_practicalSalary = baseSalary*PersonFactory.getAgeSalaryMult(age);
 	}
 }

@@ -15,8 +15,14 @@
 
 import java.util.ArrayList;
 
-public class EconomySimulator {
-
+public class EconomySimulator 
+{
+	public static void main(String[] args) 
+	{
+		new EconomySimulator();
+	}
+	
+	
 	static Government gov = new Government(new Money("1T"));
 	static ArrayList<Corporation> corps = new ArrayList<Corporation>();
 	static ArrayList<Person> people = new ArrayList<Person>();
@@ -30,31 +36,52 @@ public class EconomySimulator {
 	{
 		// initialize government
 		echo("Initialize Government");
-		
+		initGov();
 		
 		// initialize corporations
 		echo("Initialize Corporations");
-		
+		initCorps();
 		
 		// initialize people
 		echo("Initialize People");
-		
+		initPeople();
 		
 		// run simulation
 		echo("Run Simulation");
-		
+		run();
 		
 		// analyze results of sim
 		echo("Analyze Results");
-		
-	}
-	
-	public static void main(String[] args) {
-		new EconomySimulator();
+		analyze();
 	}
 
 	public void echo(String s)
 	{
 		System.out.println(s);
+	}
+	
+	void initGov()
+	{
+		
+	}
+	
+	void initCorps()
+	{
+		
+	}
+	
+	void initPeople()
+	{
+		
+	}
+	
+	void run()
+	{
+		
+	}
+	
+	void analyze()
+	{
+		
 	}
 }
